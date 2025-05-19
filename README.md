@@ -53,9 +53,9 @@ npm -v)
      ✅ Step 5: Verify Installation: Run-----> adb devices  ----> If everything is correct, you’ll see something like:
            **List of devices attached
               abd5645554   device **
-   5. Install Appium CLI  (Run this on cmd ----> npm install -g appium  , after run this for check  run----->  appium -v . To start Appium server run -------> appium )Install Appium CLI  (Run this on cmd ----> npm install -g appium  , after run this for check  run----->  appium -v . To start Appium server run -------> appium )
-   6. Install Appium Python Client---> Run----> pip install Appium-Python-Client selenium
-   7.  Install and Use Appium Inspector Download from: https://github.com/appium/appium-inspector/releases
+5. Install Appium CLI  (Run this on cmd ----> npm install -g appium  , after run this for check  run----->  appium -v . To start Appium server run -------> appium )Install Appium CLI  (Run this on cmd ----> npm install -g appium  , after run this for check  run----->  appium -v . To start Appium server run -------> appium )
+6. Install Appium Python Client---> Run----> pip install Appium-Python-Client selenium
+7.  Install and Use Appium Inspector Download from: https://github.com/appium/appium-inspector/releases
 
  
 
