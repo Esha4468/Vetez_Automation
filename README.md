@@ -85,6 +85,9 @@ emulator-5554  device]
    If its successfulll you will get this type of UI <img width="957" alt="image" src="https://github.com/user-attachments/assets/84599776-7220-4cfb-9a16-6d7e4ecb2ceb" />
 
 
+   Now you can scrpting on pyharm by creating .py file for test cases
+
+
 
 
   
