@@ -55,7 +55,37 @@ npm -v)
               abd5645554   device **
 5. Install Appium CLI  (Run this on cmd ----> npm install -g appium  , after run this for check  run----->  appium -v . To start Appium server run -------> appium )Install Appium CLI  (Run this on cmd ----> npm install -g appium  , after run this for check  run----->  appium -v . To start Appium server run -------> appium )
 6. Install Appium Python Client---> Run----> pip install Appium-Python-Client selenium
-7.  Install and Use Appium Inspector Download from: https://github.com/appium/appium-inspector/releases
+7.  Install and Use Appium Inspector Download from: https://github.com/appium/appium-inspector/releases (before appium inspector session start must open the appium server)
+       **Step-by-Step: Start Appium Inspector Session**
+    Step 1: Start Appium Server--->Open Appium Desktop (or run in cmd---> appium )--->Click “Start Server”.--->You’ll see Server started
+    Step 3: Check device connectivity by using---> adb devices
+    Step 3: Get appPackage and appActivity via Logcat
+      - adb kill-server
+      - adb start-server
+      - adb devices   [ shows a output like ( List of devices attached
+emulator-5554  device]
+      - Run---> adb logcat | findstr START (Before run this command Go to your device, launch the app manually.)
+      - In CMD you will see like this " ActivityManager: START u0 {cmp=com.example.myapp/.MainActivity}
+      - Copy values like this:  appPackage = com.example.myapp    &   appActivity = .MainActivity
+  
+    Step 4: Open Appium Inspector-->Open Appium Inspector.---?Click "Start Session".--->Choose "Custom Server" tab.--->Enter the following configuration
+
+    PASTE THIS json file on Appium Server----> JSON Representative---->  (This is my device value)------> Start Server
+      {
+        "platformName": "Android",
+        "platformVersion": "15",
+        "deviceName": "2B291JEGR00552",
+        "automationName": "UiAutomator2",
+        "appPackage": "io.ionic.vetez",
+        "appActivity": ".MainActivity",
+        "noReset": true
+      }
+   If its successfulll you will get this type of UI <img width="957" alt="image" src="https://github.com/user-attachments/assets/16218a43-d313-4f75-a700-11d9486cb5e1" />
+
+
+
+  
+
 
  
 
