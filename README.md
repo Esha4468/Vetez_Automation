@@ -71,7 +71,9 @@ emulator-5554  device]
     Step 4: Open Appium Inspector-->Open Appium Inspector.---?Click "Start Session".--->Choose "Custom Server" tab.--->Enter the following configuration
 
     PASTE THIS json file on Appium Server----> JSON Representative---->  (This is my device value)------> Start Server
-      {
+
+   
+    1.   {
         "platformName": "Android",
         "platformVersion": "15",
         "deviceName": "2B291JEGR00552",
@@ -79,7 +81,7 @@ emulator-5554  device]
         "appPackage": "io.ionic.vetez",
         "appActivity": ".MainActivity",
         "noReset": true
-      }
+         }
    If its successfulll you will get this type of UI <img width="957" alt="image" src="https://github.com/user-attachments/assets/84599776-7220-4cfb-9a16-6d7e4ecb2ceb" />
 
 
