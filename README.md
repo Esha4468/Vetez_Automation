@@ -80,7 +80,8 @@ emulator-5554  device]
         "appActivity": ".MainActivity",
         "noReset": true
       }
-   If its successfulll you will get this type of UI <img width="957" alt="image" src="https://github.com/user-attachments/assets/16218a43-d313-4f75-a700-11d9486cb5e1" />
+   If its successfulll you will get this type of UI <img width="957" alt="image" src="https://github.com/user-attachments/assets/84599776-7220-4cfb-9a16-6d7e4ecb2ceb" />
+
 
 
 
